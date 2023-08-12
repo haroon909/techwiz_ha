@@ -1,0 +1,137 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "sunflower",
+            "description": "An apple mobile which is nothing like apple",
+            "category": "OUTDOOR",
+            "img": "https://i.dummyjson.com/data/products/1/img.jpg"
+            
+        },
+        {
+            "id": 2,
+            "title": "ROSE",
+            "description": "An apple mobile which is nothing like apple",
+            "category": "INDOOR",
+            "img": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         
+        },
+        {
+            "id": 3,
+            "title": "iPhone 11",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "img": "https://i.dummyjson.com/data/products/1/img.jpg"
+            
+        },
+        {
+            "id": 4,
+            "title": "iPhone 12",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "img": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         
+        }
+        
+    ],
+    "Indoor": [
+        {
+            "id": 1,
+            "title": "sunflower",
+            "description": "An apple mobile which is nothing like apple",
+            "category": "OUTDOOR",
+            "img": "https://i.dummyjson.com/data/products/1/img.jpg"
+            
+        },
+        {
+            "id": 2,
+            "title": "ROSE",
+            "description": "An apple mobile which is nothing like apple",
+            "category": "INDOOR",
+            "img": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         
+        },
+        {
+            "id": 3,
+            "title": "iPhne 11",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "img": "https://i.dummyjson.com/data/products/1/img.jpg"
+            
+        },
+        {
+            "id": 4,
+            "title": "iPhone 12",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "img": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         
+        }
+        
+    ],
+    "outdoor": [
+        {
+            "id": 1,
+            "title": "sunflower",
+            "description": "An apple mobile which is nothing like apple",
+            "category": "OUTDOOR",
+            "img": "https://i.dummyjson.com/data/products/1/img.jpg"
+            
+        },
+        {
+            "id": 2,
+            "title": "RE",
+            "description": "An apple mobile which is nothing like apple",
+            "category": "INDOOR",
+            "img": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         
+        },
+        {
+            "id": 3,
+            "title": "iPhone 11",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "img": "https://i.dummyjson.com/data/products/1/img.jpg"
+            
+        },
+        {
+            "id": 4,
+            "title": "iPho12",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "img": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         
+        }
+        
+    ]
+}

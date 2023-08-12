@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-warning">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Welcome to Plant Palace</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <h3 class="mb-3 text-uppercase">Sign In</h3>
+          <form action="" method="" onsubmit="return validateSignInForm()">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" name="email" placeholder="Email" required>
+              <label for="floatingInput">Email</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password"
+                required>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="d-flex justify-content-end pt-3">
+              <button type="submit" name="submit" class="btn btn-warning btn-lg ms-2">Sign In</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <div class="me-auto">
+            <p>Don't have an Account? <a class="ms-auto" style="text-decoration: none;"
+                data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">SignUp!!</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content  bg-dark text-warning">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Welcome to Plant Palace</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <h3 class="mb-3 text-uppercase">SignUp</h3>
+          <form action="" method="" onsubmit="return validateSignUpForm()">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="firstName" name="fname" placeholder="First Name:">
+                  <label for="firstName">First Name:</label>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="lastName" name="lname" placeholder="Last Name:">
+                  <label for="lastName">Last Name:</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="address" name="address" placeholder="Address:">
+              <label for="address">Address:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email:">
+              <label for="email">Email:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone No:"
+                title="Please enter a valid Pakistani Phone Number">
+              <label for="phone">Phone No:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" name="password" id="signupPassword" placeholder="Password:">
+              <label for="signupPassword">Password:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" name="confirm-password" id="confirmPassword"
+                placeholder="Confirm Password:">
+              <label for="confirmPassword">Confirm Password:</label>
+            </div>
+            <div class="d-flex justify-content-end pt-2">
+              <button type="submit" name="submit" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                class="btn btn-warning btn-lg ms-2">Sign Up</button>
+            </div>
+          </form>
+
+
+        </div>
+        <div class="modal-footer">
+          <div class="me-auto">
+            <p>Already have an Account? <a class="ms-auto" style="text-decoration: none;"
+                data-bs-target="#exampleModalToggle" data-bs-toggle="modal">SignIn!!</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first modal</button>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
